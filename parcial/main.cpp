@@ -20,5 +20,6 @@ int main()
     }
     //mostrar el valor total a pagar
     cout << "total a pagar "<< pago;
-    return 0;
+    return 0;//mantiene la consola abierta
+    //fin algoritmo
 }
