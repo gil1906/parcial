@@ -10,10 +10,10 @@ int main()
     //ingrese la variable
     cin >> seg;
     //operaciones para encontrar dicha informacion
-    total1= seg/3600;
-    total2 = seg -(total1*3600);
-    total3 = total2/60;
-    total4 = total2-(total3*60);
+        total1= seg/3600;
+        total2 = seg -(total1*3600);
+        total3 = total2/60;
+        total4 = total2-(total3*60);
     cout << "valor en horas min y segundos "<< endl;
     //valor dado en orden
     cout << total1<<" horas "<<total3<<" min "<<total4<<" seg ";
