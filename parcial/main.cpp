@@ -12,12 +12,13 @@ int main()
     //ingreso de condiciones
     if (v>40) {
         pago = 40*5000+((v-40)*7500);
-        cout << "salario trabajador con el 50%  "<< endl;
+        cout << "salario trabajador con el 50%  "<< endl;//tipo de tarifa
     }
     else {
         pago = v*5000;
-        cout << "salario trabajador sin horas extras  "<< endl;
+        cout << "salario trabajador sin horas extras  "<< endl;//tipo de tarifa
     }
+    //mostrar el valor total a pagar
     cout << "total a pagar "<< pago;
     return 0;
 }
